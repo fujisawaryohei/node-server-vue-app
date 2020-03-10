@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
 
 Vue.use(Vuex)
 
@@ -49,7 +50,7 @@ export default new Vuex.Store({
     userName: (state) => { 
       return state.login_user.displayName ? state.login_user.displayName : '';
     },
-    photoURL: (state) => { 
+    photoURL: (state) => {
       return state.login_user.photoURL ? state.login_user.photoURL : '' ;
     }
   },
