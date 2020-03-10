@@ -5,9 +5,9 @@ const server = http.createServer();
 const port = 8000;
 
 server.on('request', (request, response)=>{
-  // response.writeHead(200, {
-  //   'content-type':'application/json; charset=utf-8'
-  // });
+  response.writeHead(200, {
+    'content-type':'application/json; charset=utf-8'
+  });
   router.route(request, response);
 })
 
