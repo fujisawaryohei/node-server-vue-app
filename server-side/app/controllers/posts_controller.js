@@ -1,6 +1,7 @@
 'use strict';
 
 const handle = require("../handle");
+const Post = require("../../db/Post");
 
 function getPosts(req, res){
     let body = [];
