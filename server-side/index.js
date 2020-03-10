@@ -1,6 +1,6 @@
 'use strict';
 const http = require('http');
-const router = require('./lib/router');
+const router = require('./app/router');
 const server = http.createServer();
 const port = 8000;
 
