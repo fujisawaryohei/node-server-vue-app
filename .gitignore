@@ -1,4 +1,5 @@
 /server-side/node_modules
+/server-side/dist
 /server-side/.env
 /front-end/.env.local
 /front-end/node_modules
