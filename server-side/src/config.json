@@ -1,0 +1,13 @@
+{
+    "database": {
+        "username": "postgres",
+        "database": "secret_board",
+        "host": "database",
+        "port": 5432,
+        "logging": true,
+        "dialect": "postgres",
+        "sync": {
+            "force": true
+        }
+    }
+}
