@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES2016",
-    "module": "UMD",
+    "module": "COMMONJS",
     "outDir": "./dist/",
     "rootDir": "./src/",
     "strict": true,
     "types": ["node"],
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules"
